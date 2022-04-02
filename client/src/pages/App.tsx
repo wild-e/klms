@@ -1,9 +1,9 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { solid } from '@fortawesome/fontawesome-svg-core/import.macro'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { solid } from '@fortawesome/fontawesome-svg-core/import.macro';
 
 
-function App() {
+function App(): JSX.Element {
   return (
 	<div>
 		<div className="flex flex-col w-full h-screen bg-gradient-to-r from-blue-sapphire to-blue-munsell">
