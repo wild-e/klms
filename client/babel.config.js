@@ -1,5 +1,3 @@
-module.exports = function (api) {
-    return {
-      plugins: ['macros'],
-    }
-  }
+module.exports = () => ({
+  plugins: ['macros'],
+});
