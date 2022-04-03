@@ -1,11 +1,11 @@
-import React from 'react';
-import reportWebVitals from './reportWebVitals';
-import './index.css';
-import * as ReactDOMClient from 'react-dom/client';
-import App from './pages/App';
+import React from "react";
+import reportWebVitals from "./reportWebVitals";
+import "./index.css";
+import * as ReactDOMClient from "react-dom/client";
+import App from "./pages/App";
 
-const container = document.getElementById('root');
-if (!container) throw new Error('Failed to find the root element');
+const container = document.getElementById("root");
+if (!container) throw new Error("Failed to find the root element");
 
 // Create a root.
 const root = ReactDOMClient.createRoot(container);
